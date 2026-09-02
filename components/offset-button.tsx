@@ -21,7 +21,7 @@ export function OffsetButton({
 
   return (
     <motion.div
-      className="inline-block"
+      className="relative inline-block"
       initial="rest"
       whileHover="hover"
       whileTap="tap"
