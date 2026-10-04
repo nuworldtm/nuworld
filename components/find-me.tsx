@@ -1,3 +1,4 @@
+import { OffsetButton } from '@/components/offset-button'
 import { Reveal } from '@/components/reveal'
 
 export function FindMe() {
@@ -29,10 +30,19 @@ export function FindMe() {
               <span className="font-display text-5xl leading-none tracking-tight md:text-7xl">
                 COMING SOON!
               </span>
-              <span className="text-pretty text-sm md:text-base">
-                Follow along on Instagram to be the first to know where to find
-                the garden.
-              </span>
+              <div className="flex flex-col items-start gap-5">
+                <span className="text-pretty text-sm md:text-base">
+                  Follow along on Instagram to be the first to know where to find
+                  the garden.
+                </span>
+                <OffsetButton
+                  href="https://forms.gle/tah3ibqX5eHFRD4f8"
+                  color="var(--yellow)"
+                  external
+                >
+                  ORDER A HARVEST BAG
+                </OffsetButton>
+              </div>
             </div>
           </Reveal>
         </div>
