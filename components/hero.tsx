@@ -20,14 +20,14 @@ export function Hero() {
           >
             NUWORLD
           </span>
-          <div className="relative mt-auto aspect-square w-full">
+          <div className="relative min-h-0 flex-1 w-full">
             <Image
               src="/images/nuworld-character.png"
               alt="NuWorld mascot: a hand-drawn character with green locs, silver glasses, a purple tee and teal jeans, cradling planet Earth"
               fill
               priority
               sizes="(min-width: 1024px) 50vw, 100vw"
-              className="object-contain object-bottom"
+              className="object-cover object-center"
             />
           </div>
         </div>
