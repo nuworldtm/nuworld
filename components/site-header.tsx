@@ -17,6 +17,14 @@ export function SiteHeader() {
         >
           NUWORLD™
         </Link>
+        <a
+          href="https://forms.gle/tah3ibqX5eHFRD4f8"
+          target="_blank"
+          rel="noreferrer"
+          className="border-2 border-foreground bg-yellow px-3 py-2 font-display text-[10px] uppercase tracking-wide shadow-[3px_3px_0_var(--foreground)] transition-transform hover:translate-x-0.5 hover:translate-y-0.5 hover:shadow-[1px_1px_0_var(--foreground)] md:hidden"
+        >
+          Order here
+        </a>
         <nav aria-label="Primary" className="hidden md:block">
           <ul className="flex items-center gap-8">
             {nav.map((item) => (
